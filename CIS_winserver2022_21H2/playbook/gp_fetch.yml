@@ -1,0 +1,26 @@
+---
+#provided by Saleh Miri
+
+- hosts: harden
+  gather_facts: yes
+  become: no
+  tasks:
+
+    - name: Fetch Group Policy Setting
+      community.windows.win_security_policy:
+        section: 'System Access'
+        key: "{{ item }}"
+
+      register: group_policy_setting
+      with_items:
+        - passwordhistorysize
+        - MaximumPasswordAge
+        - MinimumPasswordAge
+        - MinimumPasswordLength
+        - PasswordComplexity
+  
+    - name: Display Group Policy Setting
+      debug:
+        var: group_policy_setting    
+    
+...

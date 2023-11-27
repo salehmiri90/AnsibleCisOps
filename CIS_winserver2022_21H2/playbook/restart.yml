@@ -1,0 +1,9 @@
+---
+#provided by Saleh Miri
+
+- hosts: harden
+  gather_facts: no
+  become: no
+  tasks:
+    - name: Restart host
+      ansible.windows.win_reboot:

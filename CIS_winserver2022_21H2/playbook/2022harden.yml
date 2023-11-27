@@ -1,0 +1,65 @@
+---
+#provided by Saleh Miri
+
+- hosts: harden
+  gather_facts: yes
+  become: no
+  tasks:
+
+  - name: Section01
+    block:
+      - name: Section01
+        include_role:
+          name: section01
+    tags: s1
+    ignore_errors: yes
+  ###-------------------------------------------------###
+  - name: Section02
+    block:
+      - name: Section02
+        include_role:
+          name: section02
+    tags: s2
+    ignore_errors: yes
+  ###-------------------------------------------------###
+  - name: Section05
+    block:
+      - name: Section05
+        include_role:
+          name: section05
+    tags: s5
+    ignore_errors: yes
+  ###-------------------------------------------------###
+  - name: Section09
+    block:
+      - name: Section09
+        include_role:
+          name: section09
+    tags: s9
+    ignore_errors: yes
+  ###-------------------------------------------------###
+  - name: Section17
+    block:
+      - name: Section17
+        include_role:
+          name: section17
+    tags: s17
+    ignore_errors: yes
+  ###-------------------------------------------------###
+  - name: Section19
+    block:
+      - name: Section19
+        include_role:
+          name: section19
+    tags: s19
+    ignore_errors: yes
+  ###-------------------------------------------------###
+  - name: Section18
+    block:
+      - name: Section18
+        include_role:
+          name: section18
+    tags: s18
+    ignore_errors: yes
+  ###-------------------------------------------------###
+...
