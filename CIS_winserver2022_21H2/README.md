@@ -38,18 +38,17 @@ As example `192.168.1.1  winodws-template`.
 
 ⭐ Try to ping the dns name on your control node and be sure that it set properly using `ping winodws-template`.
 
-⭐ Set the name of your windows machine `winodws-template` in Ansible hosts inventory located in 'vi /etc/ansible/' and put it under `[harden]`.
+⭐ Set the name of your windows machine `winodws-template` in Ansible hosts inventory located in 'vi /etc/ansible/inventory/hosts' and put it under `[harden]`.
 
 ### Step 3: Defining Group Variables
-⭐ 
+⭐ Edit windows server authentication details in this directory `vi /etc/ansible/inventory/group_vars/all.yml`, In this file, you have to modify `ansible_user`, `ansible_password`, `ansible_ssh_port` parameters as I did.
 
-### Step 4: Configuring Host Variables
+### Step 4: Running Playbooks 
+⭐ There is only one playbook you have to run, it's defined based on each chapter if you want to execute it based on each chapters.
 
+⭐ Use this command to enter the playbook directory `cd /etc/ansible/playbooks/` then run this command to execute whole parts in a single command `ansible-playbook 2022harden.yml`
 
-### Step 5: Running Playbooks with Roles and Variables
+⭐ If you decided to run the playbook based on each section, you have to write tags name in the end of command, for example to run section 9 the command will be `ansible-playbook 2022harden.yml --tags s9`
 
 ## Conclusion:
-Configuring Ansible to run playbooks with roles, group variables, and host variables is a fundamental aspect of managing infrastructure efficiently. By organizing tasks into roles and defining variables at different levels, you can achieve greater flexibility, reusability, and maintainability in your Ansible playbooks. With the steps outlined in this article, you can effectively leverage roles and variables to streamline your infrastructure automation with Ansible.
 
-# How to use
-Choose your operating system, then follow youtube video: https://youtu.be/qJaz_X_2XHA?si=JVyfYyscGKb314pf
