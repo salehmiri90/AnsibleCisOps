@@ -32,7 +32,9 @@ Instruction video is already uploaded to my youtube channel https://youtube.com/
 ⭐ Check the files are exist in the destination path `cd /etc/ansible` then `ll`.
 
 ### Step 2: Defining Hosts Variables
-⭐ Set a hostname for your Windows server on your control node's hosts file located in `vi /etc/hosts` for example `192.168.1.1  winodws-template`.
+⭐ Set a hostname for your Windows server on your control node's hosts file located in `vi /etc/hosts`.
+
+As example `192.168.1.1  winodws-template`.
 
 ⭐ Try to ping the dns name on your control node and be sure that it set properly using `ping winodws-template`.
 
