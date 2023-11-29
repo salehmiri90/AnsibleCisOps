@@ -34,11 +34,11 @@ The instructional video has already been uploaded to my YouTube channel at [sale
 ### Step 2: Defining Hosts Variables
 &#9745; Set a hostname for your Windows server on your control node's hosts file located in `vi /etc/hosts`.
 
-For example `192.168.1.1  winodws-template`.
+For example `192.168.1.1  windows-template`.
 
-&#9745; Verify that the DNS name 'winodws-template' is properly set on your control node by attempting to ping it using the command `ping winodws-template`.
+&#9745; Verify that the DNS name 'windows-template' is properly set on your control node by attempting to ping it using the command `ping windows-template`.
 
-&#9745; In the Ansible hosts inventory located in `vi /etc/ansible/inventory/hosts`, place the name of your Windows machine, 'winodws-template', under [harden] and remove other items.
+&#9745; In the Ansible hosts inventory located in `vi /etc/ansible/inventory/hosts`, place the name of your Windows machine, 'windows-template', under [harden] and remove other items.
 
 ### Step 3: Defining Group Variables
 &#9745; Modify the Windows server authentication details in the directory `vi /etc/ansible/inventory/group_vars/all.yml`. In this file, update the `ansible_user`, `ansible_password`, and `ansible_ssh_port` parameters as I have done.
