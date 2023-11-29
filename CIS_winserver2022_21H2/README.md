@@ -22,7 +22,7 @@ Instruction video is already uploaded to my youtube channel https://youtube.com/
 
 ⭐ Run this command on `Windows` server to check winrm service `winrm e winrm/config/listener`.
 
-## Start to Use the code
+## Start to Use this code
 ### Step 1: Transfer codes to you Ansible Server
 &#9745; To clone this repository from my GitHub using the command line, you can use the following command:
 `git clone https://github.com/salehmiri90/Automate_Hardening.git`
@@ -50,5 +50,12 @@ For example `192.168.1.1  winodws-template`.
 
 &#9745; If you decided to run the playbook based on each section, you have to write tags name in the end of command, for example to run section 9 the command will be `ansible-playbook 2022harden.yml --tags s9`
 
-## Conclusion:
+# Contribution:
+I believe that by collaborating with talented individuals like yourself, we can enhance the functionality, efficiency, and overall quality of our projects.
+Thus, I'll happy for any forks from this project, so please use this code and let me know for any innovated ways to do it better.
+
+## Contact information
+### Email: salehmiri90@gmail.com
+### Linkedin.com/in/salehmiri
+
 
