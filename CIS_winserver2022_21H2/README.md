@@ -1,9 +1,9 @@
-![image](https://github.com/salehmiri90/Automate_Hardening/assets/52816859/e259ebdb-1d12-4bad-8034-f2d1be6ddaba)# Automate CIS Tips on Windows Server 2022 using Ansible
+# Automate CIS Tips on Windows Server 2022 using Ansible
 ## Description:
 This repository contains Ansible codes to automation your windows server 2022 OS with CIS tips.
 
 ### Video Demo on Youtube
-Instruction video is already uploaded to my youtube channel https://youtube.com/salehmiri90 and The video name is: `Hardening windows server using Ansible and CIS tips`.
+Instruction video is already uploaded to my youtube channel https://youtube.com/salehmiri90 and The video name is `Hardening windows server using Ansible and CIS tips`.
 
 ### Project Requirements:
 &#9745; A Server with Linux operating system (codes are tested on Red Hat 8.6).
@@ -14,7 +14,7 @@ Instruction video is already uploaded to my youtube channel https://youtube.com/
 
 &#9745; Provide a user to Ansible with admin privileage on Windows Machine.
 
-&#9745; Establish netowrk access between Ansible server and your endpoints on TCP ports: `5985` and `5986` .
+&#9745; Establish netowrk access between Ansible server and your endpoints on TCP ports `5985` and `5986` .
 
 &#9745; Run `Configure Remoting for Ansible.ps1` file with admin privileage on Windows Machine.
 
