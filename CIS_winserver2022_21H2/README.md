@@ -3,10 +3,9 @@ This repository contains Ansible codes to automation your windows server 2022 OS
 
 # Instruction on Youtube
 Instruction video is already uploaded to my youtube channel with below URL:
-
-https://youtube.com/salehmiri90 ,
-
-The video name is: "Hardening windows server using Ansible and CIS tips".
+`https://youtube.com/salehmiri90`
+The video name is: 
+`"Hardening windows server using Ansible and CIS tips"`
 
 Setting up Ansible to run playbooks with roles, group variables, and host variables is essential for efficient and scalable infrastructure management. Ansible's flexibility allows for the organization of tasks into roles, the definition of variables at different levels, and the targeting of specific hosts or groups. In this article, we will guide you through the process of configuring Ansible to effectively utilize roles, group variables, and host variables in your playbooks.
 # Step 1: Installing Ansible
