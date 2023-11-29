@@ -1,5 +1,5 @@
 # Automate CIS Tips on Windows Server 2022 using Ansible
-## Description:
+## Description
 This repository contains Ansible codes to automation your windows server 2022 OS based on CIS tips.
 
 ### Video Demo on Youtube
