@@ -2,9 +2,8 @@
 This repository contains Ansible codes to automation your windows server 2022 OS with CIS tips.
 
 # Run Guide Video
-Instruction video is already uploaded to my youtube channel with below URL
-
-https://youtube.com/salehmiri90 ,
+Instruction video is already uploaded to my youtube channel with below URL:
+ https://youtube.com/salehmiri90 ,
 
 The video name is: "Hardening windows server using Ansible and CIS tips".
 
