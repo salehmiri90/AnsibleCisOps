@@ -24,17 +24,28 @@ Instruction video is already uploaded to my youtube channel https://youtube.com/
 
 ## Start to Use the code
 ### Step 1: Transfer codes to you Ansible Server
-To clone this repository from my GitHub using the command line, you can use the following command:
+⭐ To clone this repository from my GitHub using the command line, you can use the following command:
 `git clone https://github.com/salehmiri90/Automate_Hardening.git`
 
-### Step 2: Organizing Playbooks with Roles
-Roles in Ansible provide a way to organize tasks, variables, and handlers into reusable units. To set up roles, create a directory structure for your playbook that includes a roles directory. Inside the roles directory, each role should have its own subdirectory containing the necessary components such as tasks, handlers, and variables. This modular approach allows for better organization and reusability of tasks across different playbooks.
+⭐ Move the contents of this cloned directory `CIS_winserver2022_21H2` to `/etc/ansible` using `mv -r CIS_winserver2022_21H2 /etc/ansible` command.
+
+⭐ Check the files are exist in the destination path `cd /etc/ansible` then `ll`.
+
+### Step 2: Defining Hosts Variables
+⭐ Set a hostname for your Windows server on your control node's hosts file located in `vi /etc/hosts` for example `192.168.1.1  winodws-template`.
+
+⭐ Try to ping the dns name on your control node and be sure that it set properly using `ping winodws-template`.
+
+⭐ Set the name of your windows machine `winodws-template` in Ansible hosts inventory located in 'vi /etc/ansible/' and put it under `[harden]`.
+
 ### Step 3: Defining Group Variables
-Group variables allow you to define variables that apply to specific groups of hosts. To set up group variables, create a directory named group_vars in your Ansible project directory. Within this directory, create YAML files named after your host groups (e.g., web_servers.yml, database_servers.yml) and define the variables specific to each group. These variables will be applied to all hosts within the respective group when running playbooks.
+⭐ 
+
 ### Step 4: Configuring Host Variables
-Host variables enable you to define variables that are specific to individual hosts. To configure host variables, create a directory named host_vars in your Ansible project directory. Within this directory, create YAML files named after your hosts (e.g., server1.yml, server2.yml) and define the variables specific to each host. These variables will be applied only to the designated hosts when running playbooks.
+
+
 ### Step 5: Running Playbooks with Roles and Variables
-Once your roles, group variables, and host variables are set up, you can run your playbooks using the ansible-playbook command. When running the playbook, specify the inventory file that contains your host and group definitions, as well as any additional options such as limiting the playbook to specific hosts or groups.
+
 ## Conclusion:
 Configuring Ansible to run playbooks with roles, group variables, and host variables is a fundamental aspect of managing infrastructure efficiently. By organizing tasks into roles and defining variables at different levels, you can achieve greater flexibility, reusability, and maintainability in your Ansible playbooks. With the steps outlined in this article, you can effectively leverage roles and variables to streamline your infrastructure automation with Ansible.
 
