@@ -5,7 +5,7 @@ This repository contains Ansible codes to automation your windows server 2022 OS
 ### Video Demo on Youtube
 Instruction video is already uploaded to my youtube channel https://youtube.com/salehmiri90 and the video name is `Hardening windows server using Ansible and CIS tips`.
 
-### Project Requirements:
+### Project Requirements
 ⭐ A Server with Linux operating system to work as control node. (codes are tested on Red Hat 8.6).
 
 ⭐ Install Ansible on your control node.
