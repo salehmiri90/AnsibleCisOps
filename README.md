@@ -1,11 +1,11 @@
 # Automate Hardening with Ansible and CIS Tips
-Using Ansible to automate your infrastructures and operating systems based on CIS tips.
+Automate your infrastructure and operating systems based on CIS tips using Ansible.
 
 ## Description
 Setting up Ansible to run playbooks with roles, group variables, and host variables is essential for efficient and scalable infrastructure management. 
 
 ## Available Codes
-I programmed `Windows Server 2022` codes in the below path, and The `full usable instruction` is available for this part.
+I have written the `Windows Server 2022` code and it is located in the following path. The `full set of instructions` is available for this section.
 
 ⭐ [Windows Server 2022 21H2 Ansible Codes Based on CIS Tips](https://github.com/salehmiri90/Automate_Hardening/tree/master/CIS_winserver2022_21H2)
 
