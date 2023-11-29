@@ -1,8 +1,31 @@
-# Introduction:
+![image](https://github.com/salehmiri90/Automate_Hardening/assets/52816859/e259ebdb-1d12-4bad-8034-f2d1be6ddaba)# Automate CIS Tips on Windows Server 2022 using Ansible
+## Description:
 This repository contains Ansible codes to automation your windows server 2022 OS with CIS tips.
 
-# Instruction on Youtube
+### Video Demo on Youtube
 Instruction video is already uploaded to my youtube channel https://youtube.com/salehmiri90 and The video name is: `Hardening windows server using Ansible and CIS tips`.
+
+### Project Requirements:
+&#9745; A Server with Linux operating system (codes are tested on Red Hat 8.6).
+
+&#9745; Install Ansible on the server.
+
+&#9745; Install Winrm and configure it on Ansible server.
+
+&#9745; Provide a user to Ansible with admin privileage on Windows Machine.
+
+&#9745; Establish netowrk access between Ansible server and your endpoints on TCP ports: `5985` and `5986` .
+
+&#9745; Run `Configure Remoting for Ansible.ps1` file with admin privileage on Windows Machine.
+
+&#9745; Run this command on `Ansible` server to check winrm service `winrm get winrm/config/Winrs`.
+
+&#9745; Run this command on `Windows` server to check winrm service `winrm e winrm/config/listener`.
+
+
+# Start to Use the code
+To clone this repository from my GitHub using the command line, you can use the following command:
+`git clone https://github.com/salehmiri90/Automate_Hardening.git`
 
 Setting up Ansible to run playbooks with roles, group variables, and host variables is essential for efficient and scalable infrastructure management. Ansible's flexibility allows for the organization of tasks into roles, the definition of variables at different levels, and the targeting of specific hosts or groups. In this article, we will guide you through the process of configuring Ansible to effectively utilize roles, group variables, and host variables in your playbooks.
 # Step 1: Installing Ansible
