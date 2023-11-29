@@ -38,7 +38,7 @@ For example `192.168.1.1  winodws-template`.
 
 &#9745; Try to ping the dns name on your control node and be sure that it set properly using `ping winodws-template`.
 
-&#9745; Set the name of your windows machine `winodws-template` in Ansible hosts inventory located in 'vi /etc/ansible/inventory/hosts' and put it under `[harden]`.
+&#9745; Set the name of your windows machine `winodws-template` in Ansible hosts inventory located in 'vi /etc/ansible/inventory/hosts' and put it under `[harden]` and remove other items.
 
 ### Step 3: Defining Group Variables
 &#9745; Edit windows server authentication details in this directory `vi /etc/ansible/inventory/group_vars/all.yml`, In this file, you have to modify `ansible_user`, `ansible_password`, `ansible_ssh_port` parameters as I did.
