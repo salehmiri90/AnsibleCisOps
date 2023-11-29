@@ -7,7 +7,7 @@ Setting up Ansible to run playbooks with roles, group variables, and host variab
 ## Available Codes
 I programmed `Windows Server 2022` codes in the below path, and The `full instruction` is available for this part.
 
-[CIS_winserver2022_21H2](https://github.com/salehmiri90/Automate_Hardening/tree/master/CIS_winserver2022_21H2)
+[CIS windows server 2022 21H2 codes](https://github.com/salehmiri90/Automate_Hardening/tree/master/CIS_winserver2022_21H2)
 
 ### Video Demo on Youtube
 Instruction video is already uploaded to my youtube channel https://youtube.com/salehmiri90 and the video name is `Hardening windows server using Ansible and CIS tips`.
