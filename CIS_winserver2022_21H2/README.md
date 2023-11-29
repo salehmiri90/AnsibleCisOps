@@ -50,7 +50,7 @@ For example `192.168.1.1  winodws-template`.
 
 &#9745; If you decided to run the playbook based on each section, you have to write tags name in the end of command, for example to run section 9 the command will be `ansible-playbook 2022harden.yml --tags s9`
 
-# Contribution:
+# Contribution
 I believe that by collaborating with talented individuals like yourself, we can enhance the functionality, efficiency, and overall quality of our projects.
 Thus, I'll happy for any forks from this project, so please use this code and let me know for any innovated ways to do it better.
 
