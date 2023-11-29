@@ -1,7 +1,7 @@
 ---
 ### Win 2022 H21 Harden ###
 ansible_user: "ansible"
-ansible_password: "aG0lch1n34"
+ansible_password: "SalehMiri@12345"
 #  #ansible_ssh_port: 5985
 ansible_ssh_port: 5986
 ansible_connection: winrm
