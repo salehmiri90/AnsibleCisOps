@@ -1,19 +1,2 @@
 [harden]
-template
-
-
-[mon]
-xorux
-
-[linux]
-
-[win]
-dc1
-
-[vc]
-vcenter
-
-##################
-#### PARENTS ####
-##################
-
+win-template
