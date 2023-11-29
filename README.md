@@ -5,7 +5,7 @@ Automate your infrastructure and operating systems based on CIS tips using Ansib
 Setting up Ansible to run playbooks with roles, group variables, and host variables is essential for efficient and scalable infrastructure management. 
 
 ## Available Codes
-I have written the `Windows Server 2022` code and it is located in the following path. The `full set of instructions` is available for this section.
+I have written the `Windows Server 2022` code in `6000 lines` and it is located in the following path. The `full set of instructions` is available for this section.
 
 ⭐ [Windows Server 2022 21H2 Ansible Codes Based on CIS Tips](https://github.com/salehmiri90/Automate_Hardening/tree/master/CIS_winserver2022_21H2)
 
