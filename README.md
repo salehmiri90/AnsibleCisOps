@@ -13,8 +13,7 @@ I programmed `Windows Server 2022` codes in the below path, and The `full usable
 Instruction video is already uploaded to my youtube channel https://youtube.com/salehmiri90 and the video name is `Hardening windows server using Ansible and CIS tips`.
 
 ## Contribution
-I believe that by collaborating with talented individuals like yourself, we can enhance the functionality, efficiency, and overall quality of our projects.
-Thus, I'll happy for any forks from this project, so please use this code and let me know for any innovated ways to do it better.
+I am confident that working together with skilled individuals like yourself can improve the functionality, efficiency, and overall quality of our projects. Therefore, I would be delighted to see any forks from this project. Please feel free to use this code and share any innovative ideas to enhance it further.
 
 ## Contact information
 #### Email: salehmiri90@gmail.com
