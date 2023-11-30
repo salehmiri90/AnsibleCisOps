@@ -55,6 +55,6 @@ I am confident that working together with skilled individuals like yourself can 
 
 ## ☎️ Contact information
 ### 📧 salehmiri90@gmail.com
-### Linkedin.com/in/salehmiri
+### [Linkedin.com/in/salehmiri](https://www.linkedin.com/in/salehmiri)
 
 
