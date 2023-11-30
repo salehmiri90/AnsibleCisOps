@@ -1,8 +1,8 @@
 # Automate CIS Tips on Windows Server 2022 using Ansible
 ## Description
-This repository contains Ansible code to automate your Windows Server 2022 OS based on CIS tips.
+This repository contains Ansible code to automate your Windows Server 2022 OS based on CIS tips. 🚀
 
-### Video Demo on Youtube
+### 🎥 Video Demo on Youtube
 The instructional video has already been uploaded to my YouTube channel at [salehmiri90](https://youtube.com/salehmiri90) and the video titled `Hardening windows server using Ansible and CIS tips`.
 
 ### Project Requirements
@@ -50,11 +50,11 @@ For example `192.168.1.1  windows-template`.
 
 &#9745; If you decide to run the playbook based on each section, you need to specify the tag name at the end of the command. For example, to run section 9, the command would be `ansible-playbook 2022harden.yml --tags s9`.
 
-# Contribution
+# ✍️ Contribution
 I am confident that working together with skilled individuals like yourself can improve the functionality, efficiency, and overall quality of our projects. Therefore, I would be delighted to see any forks from this project. Please feel free to use this code and share any innovative ideas to enhance it further.
 
-## Contact information
-### Email: salehmiri90@gmail.com
+## ☎️ Contact information
+### 📧 salehmiri90@gmail.com
 ### Linkedin.com/in/salehmiri
 
 
