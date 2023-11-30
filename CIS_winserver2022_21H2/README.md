@@ -10,7 +10,7 @@ The instructional video has already been uploaded to my YouTube channel at [sale
 
 ⭐ Install Ansible on your control node.
 
-⭐ Install `winrm` and configure it on control node.
+⭐ Install `pywinrm` and configure it on control node.
 
 ⭐ Grant administrative privileges to a user on the Windows machine from the Ansible control node.
 
