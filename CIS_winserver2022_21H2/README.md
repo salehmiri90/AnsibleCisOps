@@ -31,7 +31,7 @@ winrm e winrm/config/listener
 ## Start to Use this code
 ### Step 1: Transfer codes to you Ansible Server
 &#9745; To clone this repository from my GitHub using the command line, you can use the following command:
-````git
+````
 git clone https://github.com/salehmiri90/Automate_Hardening.git
 ````
 
