@@ -27,7 +27,9 @@ The instructional video has already been uploaded to my YouTube channel at [sale
 &#9745; To clone this repository from my GitHub using the command line, you can use the following command:
 `git clone https://github.com/salehmiri90/Automate_Hardening.git`
 
-&#9745; Use the 'mv' command to move the contents of the cloned directory 'CIS_winserver2022_21H2' to '/etc/ansible' as follows: `mv -r CIS_winserver2022_21H2 /etc/ansible`.
+&#9745; Use the 'mv' command to move the contents of the cloned directory 'CIS_winserver2022_21H2' to '/etc/ansible' as follows: 
+```bash
+mv -r CIS_winserver2022_21H2 /etc/ansible
 
 &#9745; Verify that the files exist in the destination path '/etc/ansible' by first changing to the directory using the 'cd' command: `cd /etc/ansible`, and then listing the contents with the 'll' command: `ll`.
 
