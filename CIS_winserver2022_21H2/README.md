@@ -25,7 +25,9 @@ The instructional video has already been uploaded to my YouTube channel at [sale
 ## Start to Use this code
 ### Step 1: Transfer codes to you Ansible Server
 &#9745; To clone this repository from my GitHub using the command line, you can use the following command:
-`git clone https://github.com/salehmiri90/Automate_Hardening.git`
+````
+git clone https://github.com/salehmiri90/Automate_Hardening.git
+````
 
 &#9745; Use the 'mv' command to move the contents of the cloned directory 'CIS_winserver2022_21H2' to '/etc/ansible' as follows: 
 `mv -r CIS_winserver2022_21H2 /etc/ansible`
@@ -58,8 +60,3 @@ I am confident that working together with skilled individuals like yourself can 
 ### 📧 salehmiri90@gmail.com
 ### [Linkedin.com/in/salehmiri](https://www.linkedin.com/in/salehmiri)
 
-```
-function test() {
-  console.log("This code will have a copy button to the right of it");
-}
-```
